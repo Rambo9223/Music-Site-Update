@@ -1,0 +1,627 @@
+.App {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+
+/*Common elements */
+.page-body{
+    padding-top: 10%;
+    background-color: rgb(16, 16, 16);
+    color: azure;
+    font-family: 'Adamina', serif;
+    height: 100vh;
+    overflow-x:hidden;
+    width:100%;
+    
+}
+.nav-bar{
+    /*border:white 5px solid;*/
+    background-color: black;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: space-between;
+    height:min-content;
+    position:fixed;
+    right: 0;
+    top: 0 ;
+    width:100%;
+    z-index: 2;
+}
+
+/* add nav-small if needed*/
+.logo-nav{
+    height: 125px;
+    width: 125px;
+}
+
+
+.route{  
+    border: black solid 3px;
+    color:rgb(202, 202, 255);
+    font-size: 36px;
+    position: relative;
+    text-decoration: none;
+    top: -15px;
+}
+#nav-small a{
+
+  color:rgb(202, 202, 255);
+  font-size: 22px;
+  text-decoration: none;
+  top:-15px;
+  /*border: 5px solid blue;*/
+}
+#nav-small #clock{
+    margin-top:-10px;
+}
+#nav-small button{
+    margin-top: -20px;
+}
+.route-container{
+  display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'IBM PLex Mono',monospace;
+    font-weight:bolder;
+    text-decoration: none;
+    width:auto;
+    height:auto;
+    z-index: 2;
+    margin-bottom: -4%;
+}
+.nav-routes{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-top:3%;
+}
+.route:hover{
+    background-color: rgb(44, 40, 166);
+}
+a:visited{text-decoration: none;}
+
+.pages{
+    display: inline-block;
+    left: 10%;
+    margin: auto;
+    position: absolute;
+    
+}
+.pages a {
+    padding: 0 30px ;
+}
+.links{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 150px;
+    z-index: 1;
+    }
+.external-link{
+    color: aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+}
+.on-page-link a{
+    color: aliceblue;
+    font-size: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
+.on-page-link a:hover{
+    background-color:  rgb(44, 40, 166);
+}
+.links a:hover{
+  background-color: rgb(44, 40, 166);
+}
+li{
+    
+    display: inline-flex;
+    font-size: 18px;
+    padding: 20px;
+}
+.external-link-img{
+    position: relative;
+}
+
+/* Headers Gallery & */
+/* Home Page Elements*/
+
+#background-1{
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right:0;
+    top: -200px;
+    width: 100%;
+    z-index: -1;
+}
+#about-me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    left: 180px;  
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    z-index: 1;
+}
+#about-me-small{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  left:0;  
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 90%;
+  z-index: 1;
+}
+.home-content > p{
+    text-align: justify;
+}
+#video-container{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    max-width: 878px;
+    height: 494px;
+    min-width: 470px;
+}
+
+
+/*Booking Page Elements*/
+
+#background-right{
+    display: flexbox;
+    left: -2600px;
+    margin:auto;
+    overflow: visible;
+    position: absolute;
+    right: 0px;
+    top: -150px;
+    width:100%;
+    z-index: -1;
+    
+}
+
+
+.links-booking{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: -50px;
+    z-index: 1;
+    }
+
+.links-booking a{
+    background-image:repeating-linear-gradient(to right,transparent,#5e449b,transparent);
+    color: aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.input-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+/*News Page Elements*/
+.subscribe-heading{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px green;
+}
+
+.news{
+    margin: auto;
+    display: flex;
+    }
+
+
+#news-content-large{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#news-content-small{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#news-form-container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+#background-news{
+    left:5%;
+    display: flex;
+    margin:auto;
+    overflow:visible;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    z-index: -1;
+    
+}
+
+#background-news-small{
+    left:0;
+    display: flex;
+    margin:auto;
+    overflow:visible;
+    position: absolute;
+    right: 0;
+    top:10%;
+    z-index: -1;
+    
+}
+
+#news-image{
+    width: 100%;
+    max-width: 1332px;
+    height: auto;
+}
+
+.image-wrap-news{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 60px;
+    width: calc(50%-20px);
+}
+
+#subscribe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.subscription{
+    margin: auto;
+    position: relative;
+}
+
+/*Gallery Page*/
+#background-gallery{
+background-color: rgb(16, 16, 16);
+margin: auto;
+width: 100%;
+z-index: -1;
+}
+
+#gallery-content{
+    text-align: center;
+}
+
+#gallery-content h2{
+    color: white;
+    font-size: 36px;
+    padding-top: 10px;
+}
+
+.gallery{
+    /*border: 5px solid whitesmoke;*/
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.image-wrap{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    margin: 10px;
+    padding-top: 30px;
+    width: calc(50%-20px);
+}
+
+.gallery-image{
+    display: block;
+    height:100%;
+    object-fit:fill;
+    position: relative;
+    width: auto;
+}
+
+/* Contact Me Page */
+#background-contact{
+    left:-32%;
+    top:0;
+    z-index: -2;
+    display: flex;
+    margin:auto;
+    overflow: hidden;
+    position: absolute;
+}
+#background-contact-small{
+    left:-32%;
+    z-index: -2;
+    display: flex;
+    margin:auto;
+    overflow: hidden;
+    position: absolute; 
+}
+#contact-image{
+    width: 100%;
+    height: auto;
+}
+
+.form-inputs {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.form-inputs-hidden{
+    display: none;
+}
+#contact-content{
+    /*consider % for responsivness*/
+    text-align: center;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.new-item-form{
+  color: black;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  min-width: none;
+  max-width: 600px;
+  text-align: left;
+  margin: auto;
+}
+
+.new-item-form-hidden{
+    color: black;
+    border-radius: 5px;
+    background-color:transparent;
+    padding: 20px;
+    min-width: none;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+
+.form-control {
+    flex-direction: column;
+  }
+
+.errorMsg {
+    max-width: 350px;
+    color: #f21e08;
+    padding: 2px 0;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .success-msg {
+    color: #45c740;
+  }
+
+  #age-select{
+    color: rgb(0, 102, 255);
+  }
+
+.break-xl{
+    padding:18%;
+}
+
+.break-large{
+    padding: 6%;
+}
+
+.break{
+    padding: 3%;
+}
+
+.break-small{
+    padding: 1%;
+}
+
+.faded{
+    color: rgb(232, 232, 232);
+    text-shadow: 2px 2px 4px #000000;
+    background-image: linear-gradient(to bottom right,transparent,black,transparent,black,black,transparent);
+}
+
+.shadow,.testimonials{
+    text-shadow: 2px 4px 4px #000000; 
+}
+
+.faded-title{
+    background-image: linear-gradient(to bottom right,black,transparent);
+    margin:auto;
+    width: fit-content;
+}
+
+/*Manage Links*/
+
+/*.manage{
+    border: #45c740 3px solid;
+    position: relative;
+    top: 20%;
+    width: 100%;
+}
+.manage-sticky{
+    overflow:auto;
+} work on fixing the bar to stick on scroll*/
+
+.manage li:hover{
+    background-color:rgb(87, 119, 223);
+    color: black;
+}
+
+.messages-background{
+    
+    max-width: 80%;
+    background-color:#f2f2f2 ;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:left;
+    margin: auto;
+}
+
+.messages-sidebar{
+    /*border: 5px solid green;*/
+    background-color: #252424;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    min-width: 25%;
+    color: white;
+}
+
+.messages-topbar{
+    /*border: 5px solid green;*/
+    background-color: #252424;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: auto;
+    flex-direction: row;
+    color: white;
+}
+
+.sticky{
+position: sticky;
+top: 0;
+width: 100%;
+}
+
+#compose{
+    text-align: center;
+    padding-top: 2.5%;
+    margin-top: -2.5%;
+    background-color: rgb(2, 108, 165);
+    height: 10vh;
+    width: 100%;
+}
+
+#compose-top{
+    width: 20%;
+}
+
+#new-email{
+    margin: auto;
+    width:fit-content;
+    text-decoration: none;
+    color: inherit;
+    /*border: 2px green solid;*/
+}
+#new-email:hover{
+    background-color: rgb(7, 10, 19);
+}
+
+.messages-sidebar > a:hover, .messages-topbar>a:hover{
+    background-color: rgb(7, 10, 19);
+}
+
+.message-thumbs{
+    /*border: 5px solid green;*/
+    background-color:white;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    color:black;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    height:fit-content;
+    max-height: 70vh;
+}
+
+.message-thumb{
+    border-bottom: 2px solid rgb(66, 66, 66);
+    max-height: 20vh;
+}
+.message-thumb :hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.thumb{
+
+    width:auto;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    font-size:small;
+    margin: auto;
+    overflow:hidden;
+}
+
+.messages{
+    background-color:white;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    width:50%;
+    color:black;
+    font-size: 100%;
+}
+
+
+.message-header{
+    font-size: 100%;
+    background-color: rgb(230, 230, 230);
+    height:fit-content;
+    text-align:left;
+    overflow:hidden;
+}
+
+.message-body{
+    text-align: start;
+    padding-left: 1%;
+}
+
+
+.header{
+    padding-left: 4%;
+}
+.header-span{
+    margin-left: 20%;
+}
+
+#trash:hover{
+    background-color:#b4c4ff;
+}
+
+.link:hover{
+    background-color:#b4c4ff;
+}
+
+.link > a{
+    color: inherit;
+    text-decoration: none;
+}

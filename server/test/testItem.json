@@ -1,0 +1,49 @@
+{
+    "subscriber":{
+            "preferences": {
+              "shows": false,
+              "releases": true
+            },
+            "_id":"66cf272cc33b1f899d25d927",
+            "name": "Thomas Test",
+            "email": "TT@outlook.com",
+            "age": 40,
+            "city": "Sydney",
+            "__v": 0     
+    },
+    "subscriber_Double":{
+            "name": "Thomas Test",
+            "email": "TT@outlook.com"    
+    },
+    "enquiryPass":{
+            "name": "Thomas Test",
+            "email": "TT@outlook.com",
+            "number": "+447708954237",
+            "subject": "New Inquiry",
+            "enquiry": "This is a test enqiry to be used in the chai/mocha testing suite.\n\nThe test should post the item to backend as a user, then the admin should be able to change the parameters and then delete the enquiry. ",
+            "date": "2024-05-30T10:41:48.121Z",
+            "read":false,
+            "trash": false,
+            "answered": false
+          
+    },
+    "enquiryFail":{
+        "name": "Thomas Test",
+            "email": "TT@outlook.com",
+            "number": "+447708954237",
+            "subject": "New Inquiry",
+            "enquiry": "This is a test enqiry to be used in the chai/mocha testing suite.\n\nThe test should post the item to backend as a user, then the admin should be able to change the parameters and then delete the enquiry. Unfortunatley this test enquiry is set to fail and be rejected by the content length middleware. The middleware is designed to prevent hackers from sending enquiries too large in length that they have the potential to crash the server, thus a limit of less than 400 characters has been added to the middleware.",
+            "date": "2024-05-30T10:41:48.121Z",
+            "read":false,
+            "trash": false,
+            "answered": false
+    },
+    "Admin":{
+        "_id":"6596a8bb629313ea2f589216",
+        "name": "Guest",
+        "username": "GuestAdmin@SRMusic.com",
+        "password": "guestAdmin",
+        "__v": 0
+      },
+      "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiR3Vlc3QiLCJ1c2VybmFtZSI6Ikd1ZXN0QWRtaW5AU1JNdXNpYy5jb20iLCJwYXNzd29yZCI6ImFkbWluMSIsImlhdCI6MTcyNTUzMDkxMSwiZXhwIjoxNzI1NTM0NTExfQ.dahD4ehVy35hz4Tv89jaqN9JpNy-3_-AOhxGEiRMohw"
+}
