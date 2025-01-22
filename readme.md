@@ -7,20 +7,11 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="/client/images/home.png" alt="Logo" width="120" height="120">
+    <img src="/client/images/home.png" alt="Logo" width="360" height="202.5">
   </a>
 
 <h3 align="center">Music Website (React Update)</h3>
 
-  <p align="center">
-    project_description
-    <br />
-    <a href=""><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="deployment link">View Demo</a>
-    ·
-  </p>
 </div>
 
 
@@ -55,6 +46,9 @@
 ## About The Project
 
 The project is an update to the earlier HTML,Javascript & CSS build.
+You can find the old version here - 
+
+Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/MusicPage)
 
 The old site was very limited in design and functionality in regards to user interaction with the site. Forms such as contact,feedback and subscriber and their submissions were not connected to a server to allow the admins to handle the information appropriatley at a later time. Media items also had no means to be added and removed from the site without a global update.
 
@@ -101,6 +95,17 @@ Download the zipped file from the GitHub Repo and unzip in to your chosen direct
 
 Open the terminal or VSCode and navigate to the directory that contains the files using cd
 ,cd to the server
+
+In VSCode or your perfered editor, create a .env file within the server directory
+![.env file](/client/images/create-env.png)
+
+Please note the project can run locally from a user persective without the env file however if you would 
+like to be able to see the admin/management section of the site you will need the ATLAS_URI 
+in order to gain access to the Mongo server. Creation of the .env can be done at anytime.
+Contact the developer for the required database information at - sct_r_9223@live.co.uk
+
+Once you have recieved the server information please add the fields to the env file as shown below
+
 
 ![terminal](/client/images/project-install.png)
 
@@ -246,7 +251,7 @@ Don't forget to give the project a star! Thanks again!
 
 Scott Ramsay - sct_r_9223@live.co.uk
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/Medical-Center-App)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/Music-Site-Update/tree/main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

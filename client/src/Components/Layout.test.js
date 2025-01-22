@@ -34,7 +34,7 @@ describe('Layout Page Tests', () => {
         expect(adminPage).toEqual(null);
     });
 
-    test('Page renders correct components without LocalStorage token', async () => {
+    test('Page renders correct components with LocalStorage token', async () => {
         /* we create a local storage user token, now when page renders we expect to see the admin
         link element and logout button */
         const key = "user";

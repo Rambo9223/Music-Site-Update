@@ -4,7 +4,7 @@ import { useState,useEffect } from "react";
 
 export default function Links(){
   // usestate to contain the social media items from backend
-  const [mediaList,setMediaList] = useState();
+  const [mediaList,setMediaList] = useState(undefined);
   //useEffect to call the media item from backend
   useEffect(() => {
     const interval = setInterval(() => { 
