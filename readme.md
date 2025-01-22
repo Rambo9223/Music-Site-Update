@@ -168,7 +168,8 @@ To login as an admin we must do the following, we must change the url end path t
 We do this to keep the admin portal hidden from regular users, 
 
 click the login button to open the login form
-use the details - username:GuestAdmin@SRMusic.com, password:guestAdmin
+use the details - username:GuestAdmin@SRMusic.com & password:guestAdmin
+
 ![Admin-Login](/client/images/admin-login.png)
 
 Once sucessfully logged in you will be able to view the admin portal. 
