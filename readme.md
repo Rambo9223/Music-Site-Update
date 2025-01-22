@@ -104,7 +104,9 @@ like to be able to see the admin/management section of the site you will need th
 in order to gain access to the Mongo server. Creation of the .env can be done at anytime.
 Contact the developer for the required database information at - sct_r_9223@live.co.uk
 
-Once you have recieved the server information please add the fields to the env file as shown below
+Once you have recieved the server information please add the fields to the env file as shown below.
+![env fields](/client/images/env-fields.png)
+
 
 
 ![terminal](/client/images/project-install.png)
