@@ -18,17 +18,18 @@ const user = require("./routes/nonAuthRoutes.js");
 //const media = require("./media.json");
 const helmet = require("helmet");
 const bodyParser = require('body-parser');
+const path = require("path");
 const {checkContentJSON, checkJWTToken} = require("./routes/middleware.js");
 const PORT = process.env.PORT || 5000;
 const app = express();
 
-/* code for build
-app.use(express.static(path.join(__dirname, './client/build')));
+// code for build
+app.use(express.static(path.join(__dirname, '../client/build')));
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, './client/build', 'index.html'),function(err){
+  res.sendFile(path.join(__dirname, '../client/build', 'index.html'),function(err){
     res.status(500).send(err);
   });
-});*/
+});
 
 app.get("/welcome",(req,res)=>{
   res.status(200).json({ok:true,message:"Server connected. Welcome!"})
