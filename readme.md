@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="/client/images/home.png" alt="Logo" width="360" height="202.5">
+    <img src="/client/images/home.png" alt="Logo" width="" height="">
   </a>
 
 <h3 align="center">Music Website (React Update)</h3>
@@ -48,7 +48,7 @@
 The project is an update to the earlier HTML,Javascript & CSS build.
 You can find the old version here - 
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/MusicPage)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/Music-Site-Static)
 
 The old site was very limited in design and functionality in regards to user interaction with the site. Forms such as contact,feedback and subscriber and their submissions were not connected to a server to allow the admins to handle the information appropriatley at a later time. Media items also had no means to be added and removed from the site without a global update.
 
@@ -68,6 +68,7 @@ The website now has the capacity for the site admin to manage the media items th
 * [![Mongo][Mongo.com]][Mongo-url]
 * [![Express.js][Express.js.com]][Express.js-url]
 * [![React][React.js]][React-url]
+* [![Node.js][Node.js.com]][Node.js-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 The App has been secured with helmet with the default levels of protection applied.
@@ -256,6 +257,10 @@ Scott Ramsay - sct_r_9223@live.co.uk
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/Music-Site-Update/tree/main)
 
+GitHub Profile: [https://github.com/github_username](https://github.com/Rambo9223)
+
+LinkedIn: [https://www.linkedin.com](www.linkedin.com/in/scott-ramsay-287b43286)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -295,3 +300,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Mongo-url]:https://www.mongodb.com/
 [Express.js.com]:https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
 [Express.js-url]:https://expressjs.com/
+[Node.js.com]:https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+[Node.js-url]:https://nodejs.org/
