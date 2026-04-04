@@ -1,24 +1,26 @@
 // page for all media embeded links, create a json file to have link addresses to make adding and removing media easier 
 // file paths were initially not working - solution! Added media images to public folder and edited the media.json file paths to reflect this
 import { useMediaQuery } from "react-responsive";
-import GetMedia from "./Backend-Async/GetMedia";
+//import GetMedia from "./Backend-Async/GetMedia";
+import media from "../media.json" 
 import { useState,useEffect } from "react";
 
 export default function Media(){
-    const [mediaList,setMediaList] = useState(undefined);
+    const [mediaList,setMediaList] = useState(media);
      // Within the useEffect Hook we retrieve the media items from server
-  useEffect(() => {
+  /*useEffect(() => {
     const interval = setInterval(() => { 
     GetMedia()
     .then((res) => {
         setMediaList(res);
     })
     .catch((e) => {
+        //setMediaList(media);
         console.log(e.message)
     })
       }, 500);
       return () => clearInterval(interval);
-  },[mediaList])
+  },[mediaList])*/
 
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' })
     /* using the map array method we map the photos and videos on to the page */

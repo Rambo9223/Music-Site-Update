@@ -1,12 +1,14 @@
 // page for social media links 
-import GetMedia from "./Backend-Async/GetMedia";
+//import GetMedia from "./Backend-Async/GetMedia";
 import { useState,useEffect } from "react";
+import media from "../media.json" 
+
 
 export default function Links(){
   // usestate to contain the social media items from backend
-  const [mediaList,setMediaList] = useState(undefined);
+  const [mediaList,setMediaList] = useState(media);
   //useEffect to call the media item from backend
-  useEffect(() => {
+  /*useEffect(() => {
     const interval = setInterval(() => { 
     GetMedia()
     .then((res) => {
@@ -17,7 +19,7 @@ export default function Links(){
     })
       }, 500);
       return () => clearInterval(interval);
-  },[mediaList])
+  },[mediaList])*/
 
   // map the social media links to html list
     return (

@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import testObject from "./testItem.json" assert {type:"json"}
-import mediaObject from "../media.json" assert {type:"json"};
+import testObject from "./testItem.json" with {type:"json"}
+import mediaObject from "../media.json" with {type:"json"};
 import subscribers from "../models/subscribers.db.schema.js" //assert {type:"array"};
 import blacklist from "../models/blacklist.db.schema.js";
 import { it } from "mocha";

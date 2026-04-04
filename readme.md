@@ -108,6 +108,7 @@ Contact the developer for the required database information at - sct_r_9223@live
 Once you have recieved the server information please add the fields to the env file as shown below.
 ![env fields](/client/images/env-fields.png)
 
+Alternatively to view the frontend only you can find the deployment like on Netlify here - 
 
 
 ![terminal](/client/images/project-install.png)

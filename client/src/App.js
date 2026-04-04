@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './CSS/mobile.css'
 import NavBar from './Components/NavBar';
 //import { BrowserRouter } from 'react-router-dom';
 

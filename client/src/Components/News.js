@@ -1,6 +1,6 @@
 // page for any news and mailing list subscription. 
 import newsBackground from "../Images/CC2A0054.png";
-import comingSoon from "../Images/Gallery/coming-soon.jpg"
+//import comingSoon from "../Images/Gallery/coming-soon.jpg"
 import { useState,useMemo } from "react";
 import {Form,Button} from "react-bootstrap";
 import Select from "react-select"
@@ -86,10 +86,13 @@ export default function News(){
   <>
   
   <div className="image-wrap-news">
-  <h1 className="faded">Coming Soon!</h1>
-  <h3 className="faded">New Album!, Announcement 1st June!</h3>
+  <h1 className="faded">Out Now!</h1>
+  {/*<h3 className="faded">New Album!, Announcement 1st June!</h3>
   <img className="gallery-image" src={comingSoon} alt="coming-soon"/>
-  <figcaption className="faded">News will be realeased on all social platforms <br/> midnight June 1st 2025 BST</figcaption>  
+  <figcaption className="faded">News will be realeased on all social platforms <br/> midnight June 1st 2025 BST</figcaption>*/} 
+
+  <iframe className="gallery-image" style={{"border-radius":"10px","width":"100%","height":"500"}} title="new-song" src="https://open.spotify.com/embed/track/4EyfC8o8zKPIOtPiOWWp7M?utm_source=generator&theme=0"  allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
   </div>
   {/*Subscription Form*/}
   {isTabletOrMobile?<div className="break-large"></div>:null}

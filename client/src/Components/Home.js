@@ -24,10 +24,10 @@ export default function Home(){
             </div>
           {/*Nested Video*/}
           <div className="break-small"></div>
+          <h2 className="faded-title">My Newest Single!</h2>
           <div id="video-container">
-            <h2 className="faded-title">My Newest Single!</h2>
             <div className="break-small"></div>
-            <iframe id="home-video" height={"494"} src="https://www.youtube.com/embed/9Q9gvk_WnEA" title="Don&#39;t Spend This One Alone (Official Music Video) 🎬" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <iframe id="home-video" src="https://www.youtube.com/embed/9Q9gvk_WnEA" title="Don&#39;t Spend This One Alone (Official Music Video) 🎬" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
         {/*Testemonials*/}
         <div className="break"></div>

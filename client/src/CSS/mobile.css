@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+
+/*Mobile to Tablet*/
+
+@media only screen and (max-width: 600px) {
+    
+
+
+/* Headers Gallery & */
+/* Home Page Elements  height="1775" width="2663"*/
+
+
+#nav-small a{
+  font-size: 16px;
+}
+
+.home-content{
+    left: 0;  
+    margin: auto;
+    min-width: 20%;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#home-video {
+    width: auto;
+    max-height: 450px;
+}
+
+#background-news-small{
+    padding-top: 40px;
+}
+
+.subscription{
+    width: 100%;
+}
+
+
+/*Gallery Page*/
+#background-gallery{
+overflow-x: hidden;
+}
+
+#gallery-content{
+    text-align: center;
+}
+
+.image-wrap > iframe{
+    height: 400px;
+    width: 400px;
+}
+
+#socials-gallery{
+    background-color: black;
+}
+
+
+
+}

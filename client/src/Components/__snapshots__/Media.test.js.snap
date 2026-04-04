@@ -19,7 +19,116 @@ exports[`Media Page Tests Page matches snapshot 1`] = `
           <div
             class="gallery"
             id="images"
-          />
+          >
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="Tooth & Claw - 2019"
+                class="gallery-image"
+                src="images/squared/Tooth&Claw_2019.jpg"
+              />
+              <figcaption>
+                Tooth & Claw - 2019
+              </figcaption>
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="Belladrum - 2022"
+                class="gallery-image"
+                src="images/squared/Belladrum-Live-Shot.jpg"
+              />
+              <figcaption>
+                Belladrum - 2022
+              </figcaption>
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="Tooth & Claw - 2023"
+                class="gallery-image"
+                src="images/squared/Tooth&Claw_2023-w-Nick-Shane.jpg"
+              />
+              <figcaption>
+                Tooth & Claw - 2023
+              </figcaption>
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="Tooth & Claw - 2022"
+                class="gallery-image"
+                src="images/squared/Tooth&Claw_2022.jpg"
+              />
+              <figcaption>
+                Tooth & Claw - 2022
+              </figcaption>
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="In Studio"
+                class="gallery-image"
+                src="images/squared/Studio.jpg"
+              />
+              <figcaption>
+                In Studio
+              </figcaption>
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="Live-Shot with Diamond Skies"
+                class="gallery-image"
+                src="images/squared/Back-Head.png"
+              />
+              <figcaption>
+                Live-Shot with Diamond Skies
+              </figcaption>
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="Thunder in the Glen 2019"
+                class="gallery-image"
+                src="images/squared/Thunder-in-The-Glen_2019.jpg"
+              />
+              <figcaption>
+                Thunder in the Glen 2019
+              </figcaption>
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="Covid Live Stream"
+                class="gallery-image"
+                src="images/squared/LiveStream.jpg"
+              />
+              <figcaption>
+                Covid Live Stream
+              </figcaption>
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <img
+                alt="Botanic House 2021"
+                class="gallery-image"
+                src="images/squared/Botanic_2021.jpg"
+              />
+              <figcaption>
+                Botanic House 2021
+              </figcaption>
+            </div>
+          </div>
           <div
             class="break"
           />
@@ -34,7 +143,104 @@ exports[`Media Page Tests Page matches snapshot 1`] = `
           <div
             class="gallery"
             id="video"
-          />
+          >
+            <div
+              class="image-wrap"
+            >
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen=""
+                height="500"
+                src="https://www.youtube.com/embed/9Q9gvk_WnEA"
+                title="Don't Spend This One Alone (Official Music Video) 🎬"
+                width="500"
+              />
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen=""
+                height="500"
+                src="https://www.youtube.com/embed/PeBLWYR7s0Y"
+                title="Ready To Go Back (Official Lyric Video)"
+                width="500"
+              />
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen=""
+                height="500"
+                src="https://www.youtube.com/embed/QTKgFuLjfP0"
+                title="My Little Heart (Official Music Video) 🎬"
+                width="500"
+              />
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen=""
+                height="500"
+                src="https://www.youtube.com/embed/0Za-yDu9rdE"
+                title="Picture (Music Video)"
+                width="500"
+              />
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen=""
+                height="500"
+                src="https://www.youtube.com/embed/PK_I-E39rc0"
+                title="NYC"
+                width="500"
+              />
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen=""
+                height="500"
+                src="https://www.youtube.com/embed/28gQzQV5hJo"
+                title="Sometimes Gerry Cinnamon (Live Loop Pedal Cover)"
+                width="500"
+              />
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen=""
+                height="500"
+                src="https://www.youtube.com/embed/xh1fKD7p0lY"
+                title="Dammit (We're Growing Up) Acoustic Cover"
+                width="500"
+              />
+            </div>
+            <div
+              class="image-wrap"
+            >
+              <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen=""
+                height="500"
+                src="https://www.youtube.com/embed/QgyOe3emCjg"
+                title="Live Forever (Oasis Cover)"
+                width="500"
+              />
+            </div>
+          </div>
         </main>
       </div>
     </div>
@@ -54,7 +260,116 @@ exports[`Media Page Tests Page matches snapshot 1`] = `
         <div
           class="gallery"
           id="images"
-        />
+        >
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="Tooth & Claw - 2019"
+              class="gallery-image"
+              src="images/squared/Tooth&Claw_2019.jpg"
+            />
+            <figcaption>
+              Tooth & Claw - 2019
+            </figcaption>
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="Belladrum - 2022"
+              class="gallery-image"
+              src="images/squared/Belladrum-Live-Shot.jpg"
+            />
+            <figcaption>
+              Belladrum - 2022
+            </figcaption>
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="Tooth & Claw - 2023"
+              class="gallery-image"
+              src="images/squared/Tooth&Claw_2023-w-Nick-Shane.jpg"
+            />
+            <figcaption>
+              Tooth & Claw - 2023
+            </figcaption>
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="Tooth & Claw - 2022"
+              class="gallery-image"
+              src="images/squared/Tooth&Claw_2022.jpg"
+            />
+            <figcaption>
+              Tooth & Claw - 2022
+            </figcaption>
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="In Studio"
+              class="gallery-image"
+              src="images/squared/Studio.jpg"
+            />
+            <figcaption>
+              In Studio
+            </figcaption>
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="Live-Shot with Diamond Skies"
+              class="gallery-image"
+              src="images/squared/Back-Head.png"
+            />
+            <figcaption>
+              Live-Shot with Diamond Skies
+            </figcaption>
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="Thunder in the Glen 2019"
+              class="gallery-image"
+              src="images/squared/Thunder-in-The-Glen_2019.jpg"
+            />
+            <figcaption>
+              Thunder in the Glen 2019
+            </figcaption>
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="Covid Live Stream"
+              class="gallery-image"
+              src="images/squared/LiveStream.jpg"
+            />
+            <figcaption>
+              Covid Live Stream
+            </figcaption>
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <img
+              alt="Botanic House 2021"
+              class="gallery-image"
+              src="images/squared/Botanic_2021.jpg"
+            />
+            <figcaption>
+              Botanic House 2021
+            </figcaption>
+          </div>
+        </div>
         <div
           class="break"
         />
@@ -69,7 +384,104 @@ exports[`Media Page Tests Page matches snapshot 1`] = `
         <div
           class="gallery"
           id="video"
-        />
+        >
+          <div
+            class="image-wrap"
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+              height="500"
+              src="https://www.youtube.com/embed/9Q9gvk_WnEA"
+              title="Don't Spend This One Alone (Official Music Video) 🎬"
+              width="500"
+            />
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+              height="500"
+              src="https://www.youtube.com/embed/PeBLWYR7s0Y"
+              title="Ready To Go Back (Official Lyric Video)"
+              width="500"
+            />
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+              height="500"
+              src="https://www.youtube.com/embed/QTKgFuLjfP0"
+              title="My Little Heart (Official Music Video) 🎬"
+              width="500"
+            />
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+              height="500"
+              src="https://www.youtube.com/embed/0Za-yDu9rdE"
+              title="Picture (Music Video)"
+              width="500"
+            />
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+              height="500"
+              src="https://www.youtube.com/embed/PK_I-E39rc0"
+              title="NYC"
+              width="500"
+            />
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+              height="500"
+              src="https://www.youtube.com/embed/28gQzQV5hJo"
+              title="Sometimes Gerry Cinnamon (Live Loop Pedal Cover)"
+              width="500"
+            />
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+              height="500"
+              src="https://www.youtube.com/embed/xh1fKD7p0lY"
+              title="Dammit (We're Growing Up) Acoustic Cover"
+              width="500"
+            />
+          </div>
+          <div
+            class="image-wrap"
+          >
+            <iframe
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen=""
+              height="500"
+              src="https://www.youtube.com/embed/QgyOe3emCjg"
+              title="Live Forever (Oasis Cover)"
+              width="500"
+            />
+          </div>
+        </div>
       </main>
     </div>
   </div>,
