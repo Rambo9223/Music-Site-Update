@@ -3,10 +3,12 @@
 import { useMediaQuery } from "react-responsive";
 //import GetMedia from "./Backend-Async/GetMedia";
 import media from "../media.json" 
-import { useState,useEffect } from "react";
+//import { useState,useEffect } from "react";
 
 export default function Media(){
-    const [mediaList,setMediaList] = useState(media);
+    //const [mediaList,setMediaList] = useState(media);
+    const mediaList = media;
+    
      // Within the useEffect Hook we retrieve the media items from server
   /*useEffect(() => {
     const interval = setInterval(() => { 
