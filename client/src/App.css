@@ -339,6 +339,11 @@ z-index: -1;
     width: calc(50%-20px);
 }
 
+.image-wrap > iframe{
+    height: 500px;
+    width: 500px;
+}
+
 .gallery-image{
     display: block;
     height:100%;
@@ -624,3 +629,4 @@ width: 100%;
     color: inherit;
     text-decoration: none;
 }
+

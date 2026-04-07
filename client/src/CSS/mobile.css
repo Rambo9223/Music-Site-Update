@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 
-/*Mobile to Tablet*/
 
 @media only screen and (max-width: 600px) {
     
 
 
-/* Headers Gallery & */
+/* Fix Gallery images so they are flex */
 /* Home Page Elements  height="1775" width="2663"*/
 
 
@@ -46,20 +45,36 @@
 #background-gallery{
 overflow-x: hidden;
 }
+.gallery{
+    flex-direction: column;
+}
 
 #gallery-content{
     text-align: center;
+    padding-top: 70px;
 }
+
 
 .image-wrap > iframe{
     height: 400px;
-    width: 400px;
+    width: 375px;
 }
 
 #socials-gallery{
     background-color: black;
 }
 
+#background-contact-small{
+    padding-top: 30px;
+}
 
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+    #gallery-content{
+    padding-top: 60px;
+}
 
 }

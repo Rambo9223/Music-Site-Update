@@ -6,7 +6,7 @@ exports[`Message New Test Page matches snapshot and element exists 1`] = `
   "baseElement": <body>
     <div>
       <a
-        href="mailto:?subject=Scott Ramsay Enquiry - 2026-04-04&body=Dear%2C%0A%20%20%20%20My%20name%20is%20Scott%20Ramsay.%0A%20%20%20%20Many%20Thanks%0A%20%20%20%20Scott"
+        href="mailto:?subject=Scott Ramsay Enquiry - 2026-04-07&body=Dear%2C%0A%20%20%20%20My%20name%20is%20Scott%20Ramsay.%0A%20%20%20%20Many%20Thanks%0A%20%20%20%20Scott"
         id="new-email"
       >
         Compose 
@@ -27,7 +27,7 @@ exports[`Message New Test Page matches snapshot and element exists 1`] = `
   </body>,
   "container": <div>
     <a
-      href="mailto:?subject=Scott Ramsay Enquiry - 2026-04-04&body=Dear%2C%0A%20%20%20%20My%20name%20is%20Scott%20Ramsay.%0A%20%20%20%20Many%20Thanks%0A%20%20%20%20Scott"
+      href="mailto:?subject=Scott Ramsay Enquiry - 2026-04-07&body=Dear%2C%0A%20%20%20%20My%20name%20is%20Scott%20Ramsay.%0A%20%20%20%20Many%20Thanks%0A%20%20%20%20Scott"
       id="new-email"
     >
       Compose 
