@@ -336,7 +336,7 @@ z-index: -1;
     justify-content: center;
     margin: 10px;
     padding-top: 30px;
-    width: calc(50%-20px);
+    /*width: calc(50%-20px);*/
 }
 
 .image-wrap > iframe{
