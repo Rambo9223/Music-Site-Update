@@ -32,7 +32,7 @@ export default function Clock(props){
     function ToggleBool(){
         setBool(!bool);
         if(response!==null){
-        if(response.ok===true){
+        if(response.ok===true){// if logged out
             localStorage.clear();
             // reload to clear page
             window.location.reload();
@@ -68,7 +68,7 @@ export default function Clock(props){
                     break;
                 case 1:// on case 1 we log out the user
                     LogoutAdmin(token).then((res)=>{
-                        console.log(res);
+                        //console.log(res);
                         setResponse(res);
                         if(res.ok === true){
                             setBool(true);
